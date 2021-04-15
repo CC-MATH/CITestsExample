@@ -1,4 +1,7 @@
 # Basic sample for Espresso
+Resources:
+1. https://developer.android.com/training/testing/junit-rules
+2. https://github.com/android/testing-samples/tree/master/ui/espresso/BasicSample
 
 *If you are new to Espresso, try this sample first.*
 
