@@ -1,9 +1,9 @@
 name: AndroidCI
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
   lint:
@@ -54,4 +54,4 @@ instrumentation-test:
       uses: actions/upload-artifact@v2
       with:
         name: instrumentation_test_report
-        path: app/build/reports/androidTests/connected/        
+        path: app/build/reports/androidTests/connected/
